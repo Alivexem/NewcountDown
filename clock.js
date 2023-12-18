@@ -146,7 +146,20 @@ start.addEventListener("click", () => {
                second.value = 60 - seconds 
            }
        }
- 
+       if(yearValidation > 0){
+         if(monthValidation == 0 && dayValidation > 0){
+           monthValidation = Math.abs(monthValidation)
+         
+           let real = month - monthValidation
+         
+           let logic = eval((real * 31) + dayValidation)
+    
+               day.value = logic - 1
+               hour.value = 24 - hours
+               minute.value = 60 - minutes 
+               second.value = 60 - seconds 
+           }
+       }
   
   
          if(yearValidation == 0){
