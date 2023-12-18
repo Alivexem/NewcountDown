@@ -37,7 +37,7 @@ start.addEventListener("click", () => {
         
         let monthValidation = parseInt(eval(newMonth - month))
         let dayValidation = parseInt(eval(input - days))
-        console.log(input, option)
+        
         if(input > 30 && option == "september"){
             alert("September has only 30 days!")
             return 
@@ -110,7 +110,12 @@ start.addEventListener("click", () => {
            let logic = eval((real * 31) + dayValidation)
     
                day.value = logic - 1
-               hour.value = 24 - hours - 1
+               hour = 24 - hours - 1
+               if(hour == -1){
+                   hour.value = 0
+               }else{
+                   hour.value = hour
+               }
                minute.value = 60 - minutes - 1
                second.value = 60 - seconds - 1
            }
@@ -125,7 +130,12 @@ start.addEventListener("click", () => {
            let logic = eval((real * 31) + dayValidation)
     
                day.value = logic - 1
-               hour.value = 24 - hours -1
+               hour = 24 - hours - 1
+               if(hour == -1){
+                   hour.value = 0
+               }else{
+                   hour.value = hour
+               }
                minute.value = 60 - minutes - 1
                second.value = 60 - seconds - 1
            }
@@ -141,7 +151,12 @@ start.addEventListener("click", () => {
            let logic = eval((real * 31) + dayValidation)
     
                day.value = logic - 1
-               hour.value = 24 - hours - 1
+               hour = 24 - hours - 1
+               if(hour == -1){
+                   hour.value = 0
+               }else{
+                   hour.value = hour
+               }
                minute.value = 60 - minutes - 1
                second.value = 60 - seconds - 1
            }
@@ -156,7 +171,12 @@ start.addEventListener("click", () => {
            let logic = eval((real * 31) + dayValidation)
     
                day.value = logic - 1
-               hour.value = 24 - hours - 1
+               hour = 24 - hours - 1
+               if(hour == -1){
+                   hour.value = 0
+               }else{
+                   hour.value = hour
+               }
                minute.value = 60 - minutes - 1
                second.value = 60 - seconds - 1 
            }
@@ -168,7 +188,12 @@ start.addEventListener("click", () => {
            if(dayValidation > 0 && monthValidation == 0){          
              let logic = dayValidation
              day.value = logic - 1
-             hour.value = 24 - hours - 1
+             hour = 24 - hours - 1
+             if(hour == -1){
+                  hour.value = 0
+              }else{
+                 hour.value = hour
+             }
              minute.value = 60 - minutes - 1
              second.value = 60 - seconds - 1
          }
