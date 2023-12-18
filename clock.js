@@ -110,9 +110,9 @@ start.addEventListener("click", () => {
            let logic = eval((real * 31) + dayValidation)
     
                day.value = logic - 1
-               hour.value = 24 - hours
-               minute.value = 60 - minutes 
-               second.value = 60 - seconds 
+               hour.value = 24 - hours - 1
+               minute.value = 60 - minutes - 1
+               second.value = 60 - seconds - 1
            }
        }
        
@@ -125,9 +125,9 @@ start.addEventListener("click", () => {
            let logic = eval((real * 31) + dayValidation)
     
                day.value = logic - 1
-               hour.value = 24 - hours
-               minute.value = 60 - minutes 
-               second.value = 60 - seconds 
+               hour.value = 24 - hours -1
+               minute.value = 60 - minutes - 1
+               second.value = 60 - seconds - 1
            }
        }
  
@@ -141,9 +141,9 @@ start.addEventListener("click", () => {
            let logic = eval((real * 31) + dayValidation)
     
                day.value = logic - 1
-               hour.value = 24 - hours
-               minute.value = 60 - minutes 
-               second.value = 60 - seconds 
+               hour.value = 24 - hours - 1
+               minute.value = 60 - minutes - 1
+               second.value = 60 - seconds - 1
            }
        }
        
@@ -156,9 +156,9 @@ start.addEventListener("click", () => {
            let logic = eval((real * 31) + dayValidation)
     
                day.value = logic - 1
-               hour.value = 24 - hours
-               minute.value = 60 - minutes 
-               second.value = 60 - seconds 
+               hour.value = 24 - hours - 1
+               minute.value = 60 - minutes - 1
+               second.value = 60 - seconds - 1 
            }
        }
  
@@ -168,9 +168,9 @@ start.addEventListener("click", () => {
            if(dayValidation > 0 && monthValidation == 0){          
              let logic = dayValidation
              day.value = logic - 1
-             hour.value = 24 - hours 
-             minute.value = 60 - minutes 
-             second.value = 60 - seconds
+             hour.value = 24 - hours - 1
+             minute.value = 60 - minutes - 1
+             second.value = 60 - seconds - 1
          }
            
        }
@@ -244,4 +244,4 @@ const colorChange = () => {
     }, 100);
 };
 
-           
+            
