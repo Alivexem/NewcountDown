@@ -110,11 +110,11 @@ start.addEventListener("click", () => {
            let logic = eval((real * 31) + dayValidation)
     
                day.value = logic - 1
-               hour = 24 - hours - 1
-               if(hour == -1){
+               let Thour = eval(24 - hours - 1)
+               if(Thour == -1){
                    hour.value = 0
                }else{
-                   hour.value = hour
+                   hour.value = Thour
                }
                minute.value = 60 - minutes - 1
                second.value = 60 - seconds - 1
@@ -130,11 +130,11 @@ start.addEventListener("click", () => {
            let logic = eval((real * 31) + dayValidation)
     
                day.value = logic - 1
-               hour = eval(24 - hours - 1)
-               if(hour == -1){
+               let Thour = eval(24 - hours - 1)
+               if(Thour == -1){
                    hour.value = 0
                }else{
-                   hour.value = hour
+                   hour.value = Thour
                }
                minute.value = 60 - minutes - 1
                second.value = 60 - seconds - 1
@@ -151,11 +151,11 @@ start.addEventListener("click", () => {
            let logic = eval((real * 31) + dayValidation)
     
                day.value = logic - 1
-               hour = eval(24 - hours - 1)
-               if(hour == -1){
+               let Thour = eval(24 - hours - 1)
+               if(Thour == -1){
                    hour.value = 0
                }else{
-                   hour.value = hour
+                   hour.value = Thour
                }
                minute.value = 60 - minutes - 1
                second.value = 60 - seconds - 1
@@ -171,11 +171,11 @@ start.addEventListener("click", () => {
            let logic = eval((real * 31) + dayValidation)
     
                day.value = logic - 1
-               hour = eval(24 - hours - 1)
-               if(hour == -1){
+               let Thour = eval(24 - hours - 1)
+               if(Thour == -1){
                    hour.value = 0
                }else{
-                   hour.value = hour
+                   hour.value = Thour
                }
                minute.value = 60 - minutes - 1
                second.value = 60 - seconds - 1 
@@ -188,11 +188,11 @@ start.addEventListener("click", () => {
            if(dayValidation > 0 && monthValidation == 0){          
              let logic = dayValidation
              day.value = logic - 1
-             hour = eval(24 - hours - 1)
-             if(hour == -1){
+             let Thour = eval(24 - hours - 1)
+             if(Thour == -1){
                   hour.value = 0
               }else{
-                 hour.value = hour
+                 hour.value = Thour
              }
              minute.value = 60 - minutes - 1
              second.value = 60 - seconds - 1
