@@ -1,6 +1,7 @@
-/* From the Developer of AlivexemTech. This is a personal Project so no documentation is provided, you can fork and clone this though... you are permitted.
+/* From the Developer of AlivexemTech. This is a personal Project for a COUNTDOWN WEB-APP, works with Real world time and built from scratch without fetching API'S. There's no documentation provided, you can fork and clone this... you are permitted.
 *
 * Have fun in trying to Optimize this code (if you will), you are always welcome!
+*
 *
 */
 
