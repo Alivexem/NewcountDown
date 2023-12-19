@@ -63,7 +63,7 @@ start.addEventListener("click", () => {
         
         if(yearValidation <= 0 && monthValidation <= 0){
            if(dayValidation <= 0){
-               alert("Please input a date that can be counted down!")
+               alert("Please input a FUTURE date that can be counted down!")
                return
            }
        }
