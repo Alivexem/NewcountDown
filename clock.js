@@ -1,3 +1,10 @@
+/* From the Developer of AlivexemTech. This is a personal Project so no documentation is provided, you can fork and clone this though... you are permitted.
+*
+* Have fun in trying to Optimize this code (if you will), you are always welcome!
+*
+*/
+
+
 let start = document.getElementById("start")
 let day = document.getElementById("day")
 let hour = document.getElementById("hour")
@@ -6,7 +13,6 @@ let second = document.getElementById("second")
 let reset = document.getElementById("reset")
 let audio = new Audio("effect.mp3")
 let anime = document.querySelectorAll(".fire")
-
 
 let spanDay = document.getElementById("days")
 let spanMon = document.getElementById("mon")
